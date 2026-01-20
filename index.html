@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@700&display=swap"
+    rel="stylesheet">
+
 </head>
 <body>
     <!-- HEADER -->
-   <header>
-    <nav></nav>
-    <a href="/">WebStudio</a>
+   <header class="header">
+    
+    <a class="header-logo" href="#"><span style="color: #4D5AE5;">Web</span>Studio</a>
+    <nav class="header-navigation">
     <ul>
-        <li><a href="/">Studio</a></li>
-        <li><a href="/">Portfolio</a></li>
-        <li><a href="/">Contacts</a></li>
+        <li class="header-menu-item"><a class="header-menu-link" href="#">Studio</a></li>
+        <li class="header-menu-item"><a class="header-menu-link" href="#">Portfolio</a></li>
+        <li class="header-menu-item"><a class="header-menu-link" href="#">Contacts</a></li>
     </ul>
-</nav>
-<address></address>
+    </nav>
+<address class="header-adress">
     <ul>
-        <li><a href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111" target="_blank">+11 (000) 111-11-11</a></li>
+        <li class="header-contact"><a class="header-contact-link" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a></li>
+        <li class="header-contact"><a class="header-contact-link" href="tel:+110001111111" target="_blank">+11 (000) 111-11-11</a></li>
     </ul>
 </address>
    </header>
@@ -27,9 +35,9 @@
 <main>
     <!-- HERO -->
     <section class="hero">
-        <h1>Effective Solutions
+        <h1 class="hero-title">Effective Solutions
         for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="hero-btn" type="button">Order Service</button>
     </section>
 <!-- MAIN CONTENT leson1-->
     <section><h2 hidden>advantages</h2>
@@ -132,7 +140,7 @@
 </section>
 <!-- FOOTER osn -->
 <footer>
-<a href="/">WebStudio</a>
+<a href="/"><span style="color: #4D5AE5;">Web</span>Studio</a>
     <p>Increase the flow of customers and
          sales for your business with digital<br>
          marketing & growth solutions.</p>
