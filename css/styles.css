@@ -6,11 +6,14 @@
     --navy-blue: #2e2f42;
     --slate: #434455;
     --cloud: #F4F4FD;
+    --ocean: #404bbf;
 }
 body {
     font-family: var(--font-family);
     background-color: var(--white);
 }
+button {cursor: pointer;}
+
 ul {list-style: none;}
 a {text-decoration: none;}
 
@@ -27,6 +30,10 @@ a {text-decoration: none;}
     color: var(--navy-blue);
 }
 
+.header-menu-link:hover, .header-menu-link:focus {
+color: var(--ocean);
+}
+
 .header-menu-link {
     font-family: var(--font-family);
     font-weight: 500;
@@ -37,6 +44,7 @@ a {text-decoration: none;}
     text-decoration: none;
     color: var(--navy-blue);
 }
+
 .header-contact-link {
     font-family: var(--font-family);
     font-style: normal;
