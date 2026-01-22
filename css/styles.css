@@ -33,7 +33,9 @@ a {text-decoration: none;}
 .header-menu-link:hover, .header-menu-link:focus {
 color: var(--ocean);
 }
-
+.header-contact-link:hover, .header-contact-link:focus {
+    color: var(--ocean);
+}
 .header-menu-link {
     font-family: var(--font-family);
     font-weight: 500;
@@ -99,7 +101,6 @@ background: var(--navy-blue);
     color: var(--navy-blue);
 }
 .advantages-list-text {
-    font-weight: 400;
     font-size: 16px;
     /* line-height: 24px; */
     line-height: 1.5;
@@ -139,7 +140,6 @@ background: var(--navy-blue);
 }
 
 .team-item-text {
-    font-weight: 400;
     font-size: 16px;
     /* line-height: 24px; */
     line-height: 1.5;
@@ -186,7 +186,6 @@ background: var(--navy-blue);
 }
 
 .portfolio-item-text {
-    font-weight: 400;
     font-size: 16px;
     /* line-height: 24px; */
     line-height: 1.5;
@@ -211,7 +210,6 @@ background: var(--navy-blue);
 }
 
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     /* line-height: 24px; */
     line-height: 1.5;
